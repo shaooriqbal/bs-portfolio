@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Boiler Installation Glasgow | Combi & System",
-  description:
-    "A-rated combi and system boiler installation in Glasgow. Free survey, fixed quote, warranty registration.",
+  title: "Software Development Company - BurjSoft",
+  description: "Leading software development company in Miami, FL. Specializing in custom enterprise software, mobile apps, and cloud solutions.",
 };
 
 export default function Layout({ children }: { children: React.ReactNode }) {

@@ -36,7 +36,7 @@ export function Header() {
             </div>
           </div>
           <div>
-            <span className="block font-sans text-lg font-bold tracking-tight text-white">
+            <span className="block font-sans text-xlg font-bold tracking-tight text-white">
               Burj<span className="text-gradient-purple">Soft</span>
             </span>
             <span className="block text-[10px] font-semibold uppercase tracking-widest text-slate-400">

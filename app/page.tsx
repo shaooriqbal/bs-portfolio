@@ -47,27 +47,6 @@ export default function HomePage() {
                   Explore Services
                 </Link>
               </div>
-
-              {/* Metrics counter */}
-              <div className="mt-8 grid grid-cols-4 gap-6 border-t border-white/10 pt-5">
-                <div>
-                  <div className="font-mono text-xl font-bold text-white">{site.stats.engineers}</div>
-                  <div className="mt-0.5 text-[11px] text-slate-400">Senior Engineers</div>
-                </div>
-                <div>
-                  <div className="font-mono text-xl font-bold text-white">{site.stats.engagementYears}</div>
-                  <div className="mt-0.5 text-[11px] text-slate-400">Avg Retention</div>
-                </div>
-                <div>
-                  <div className="font-mono text-xl font-bold text-white">{site.stats.projectsDelivered}</div>
-                  <div className="mt-0.5 text-[11px] text-slate-400">Enterprise Apps</div>
-                </div>
-                <div>
-                  <div className="font-mono text-xl font-bold text-white">{site.stats.uptime}</div>
-                  <div className="mt-0.5 text-[11px] text-slate-400">Target SLA</div>
-                </div>
-              </div>
-
             </div>
 
             {/* Simulated High-Tech System Architecture Preview Card */}
@@ -109,6 +88,28 @@ export default function HomePage() {
               <div className="mt-6 flex items-center justify-between rounded-xl bg-white/5 p-3 border border-white/10 text-xs">
                 <span className="text-slate-400">Security Standard:</span>
                 <span className="font-semibold text-brand-emerald">SOC 2 / GDPR Ready</span>
+              </div>
+            </div>
+          </div>
+
+          {/* Metrics counter - Full width & centered below the grid */}
+          <div className="mt-16 border-t border-white/10 pt-8">
+            <div className="grid grid-cols-2 gap-8 sm:grid-cols-4 text-center max-w-5xl mx-auto">
+              <div>
+                <div className="font-mono text-3xl sm:text-4xl font-extrabold text-white">{site.stats.engineers}</div>
+                <div className="mt-1 text-xs sm:text-sm text-slate-400">Senior Engineers</div>
+              </div>
+              <div>
+                <div className="font-mono text-3xl sm:text-4xl font-extrabold text-white">{site.stats.engagementYears}</div>
+                <div className="mt-1 text-xs sm:text-sm text-slate-400">Avg Retention</div>
+              </div>
+              <div>
+                <div className="font-mono text-3xl sm:text-4xl font-extrabold text-white">{site.stats.projectsDelivered}</div>
+                <div className="mt-1 text-xs sm:text-sm text-slate-400">Enterprise Apps</div>
+              </div>
+              <div>
+                <div className="font-mono text-3xl sm:text-4xl font-extrabold text-white">{site.stats.uptime}</div>
+                <div className="mt-1 text-xs sm:text-sm text-slate-400">Target SLA</div>
               </div>
             </div>
           </div>

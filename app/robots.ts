@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://besafe24-7.co.uk/sitemap.xml",
+    sitemap: "https://burjsoft.com/sitemap.xml",
   };
 }
