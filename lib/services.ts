@@ -154,7 +154,7 @@ export const services: Service[] = [
     ],
     techStack: [
       "AWS / Azure / GCP",
-      "Terraform",
+      "Terraform / Pulumi",
       "Kubernetes & Docker",
       "GitHub Actions",
       "Prometheus & Grafana",
