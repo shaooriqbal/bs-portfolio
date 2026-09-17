@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Heating, Plumbing & Boiler Services Glasgow",
+  title: "Fintech, CRMS and custom software development services",
   description:
-    "Emergency boiler repairs, annual servicing, CP12, new installs, plumbing, gas and drainage from Gas Safe engineers across Greater Glasgow.",
+    "Custom software development services for fintech, crms and custom software development. We help startups and enterprises build scalable and secure software solutions.",
 };
 
 export default function ServicesLayout({ children }: { children: React.ReactNode }) {
